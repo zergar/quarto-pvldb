@@ -74,6 +74,17 @@ author:
       country: USA
     email: jpkumquat@consortium.net
 
+# VLDB preable information
+
+vldb-metadata:
+  doi: XXXXXXX.XXXXXXX
+  pages: XX-XX
+  volume: 19
+  issue: 1
+  year: 2018
+  availabilityurl: THEAVAILABILITYURL
+  
+
 # acm-specific metadata
 acm-metadata:
   # comment this out to make submission anonymous
@@ -84,20 +95,6 @@ acm-metadata:
 
   # comment this out to specify detailed document options
   # acmart-options: sigconf, review  
-
-  # acm preamble information
-  copyright-year: 2018
-  acm-year: 2018
-  copyright: acmcopyright
-  doi: XXXXXXX.XXXXXXX
-  conference-acronym: "Conference acronym 'XX"
-  conference-name: |
-    Make sure to enter the correct
-    conference title from your rights confirmation emai
-  conference-date: June 03--05, 2018
-  conference-location: Woodstock, NY
-  price: "15.00"
-  isbn: 978-1-4503-XXXX-X/18/06
 
   # if present, replaces the list of authors in the page header.
   shortauthors: Trovato et al.
@@ -214,6 +211,10 @@ The majority of conference proceedings documentation will use the "`cmconf`" tem
 * `sigchi`: Used for SIGCHI conference articles.
 * `sigchi-a`: Used for SIGCHI "Extended Abstract" articles.
 * `sigplan`: Used for SIGPLAN conference articles.
+
+Please note, that the document class option variables in `STYLE` are set using
+the `acm-metadata.acmart-options` key. The `classoption` parameter provided by 
+Quarto by default is without any effect.
 
 ## Template Parameters
 

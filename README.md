@@ -1,6 +1,6 @@
 # Association of Computing Machinery (ACM)
 
-This Quarto format will help you create documents for the Association of Computing Machinery. To learn more about ACM publications, see [ACM's Information for Authors page](https://www.acm.org/publications/authors/information-for-authors). For more about Quarto and how to use format extensions, see <https://quarto.org/docs/journals/>.
+This Quarto format will help you create documents for the Proceedings of the International Conference on Very Large Data Bases (PVLDB). The [template](https://github.com/cwida/pvldbstyle/archive/master.zip) is based on the Article Template of the Association for Computing Machinery. To learn more about ACM publications, see [ACM's Information for Authors page](https://www.acm.org/publications/authors/information-for-authors). For more about Quarto and how to use format extensions, see <https://quarto.org/docs/journals/>.
 
 ## Creating a New Article
 
